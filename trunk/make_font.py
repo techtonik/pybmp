@@ -66,7 +66,7 @@ for char_number in range(0, 255):
     draw = ImageDraw.Draw(img)
     draw.text((10,10), ' %s ' % character, font=font, fill='#ffffff')
     data = img.getdata()
-    img.save('%s.png' % char_number, 'PNG')
+    #img.save('%s.png' % char_number, 'PNG')
 
     offset = 0
     row = ''
